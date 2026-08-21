@@ -1,9 +1,3 @@
-.claude/
-.remember/
-.mcp.json
-CLAUDE.local.md
-*.claude-session
-
 # Virtual environment
 .venv/
 venv/
@@ -44,3 +38,9 @@ LAB Deep Learning/session-*/outputs/*
 !LAB Deep Learning/session-*/outputs/.gitkeep
 LAB Speech Recognition/session-*/outputs/*
 !LAB Speech Recognition/session-*/outputs/.gitkeep
+
+.claude/
+.remember/
+.mcp.json
+CLAUDE.local.md
+*.claude-session

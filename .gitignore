@@ -1,0 +1,47 @@
+# AI tooling — jangan pernah ke-push ke repo publik
+.claude/
+.remember/
+.mcp.json
+CLAUDE.local.md
+*.claude-session
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Jupyter
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (raw/large datasets — jangan commit ke git, shared di level lab)
+LAB Deep Learning/data/*
+!LAB Deep Learning/data/.gitkeep
+LAB Speech Recognition/data/*
+!LAB Speech Recognition/data/.gitkeep
+
+# Model checkpoints per session (biasanya besar, simpan di luar git / git-lfs)
+LAB Deep Learning/session-*/models/*
+!LAB Deep Learning/session-*/models/.gitkeep
+LAB Speech Recognition/session-*/models/*
+!LAB Speech Recognition/session-*/models/.gitkeep
+
+# Outputs per session (hasil training, plots, dsb — biasanya reproducible)
+LAB Deep Learning/session-*/outputs/*
+!LAB Deep Learning/session-*/outputs/.gitkeep
+LAB Speech Recognition/session-*/outputs/*
+!LAB Speech Recognition/session-*/outputs/.gitkeep

@@ -1,0 +1,24 @@
+# Deep Learning + Speech Recognition (Intelligent System streaming)
+numpy
+pandas
+matplotlib
+scikit-learn
+jupyter
+notebook
+
+# Deep Learning core
+torch
+torchvision
+torchaudio
+transformers
+datasets
+accelerate
+
+# Speech Recognition specific
+librosa
+soundfile
+jiwer
+
+# Utility
+tqdm
+python-dotenv

@@ -21,23 +21,24 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Data (raw/large datasets)
-LAB Deep Learning/data/*
-!LAB Deep Learning/data/.gitkeep
-LAB Speech Recognition/data/*
-!LAB Speech Recognition/data/.gitkeep
+# Artefak hasil run notebook - dibuat otomatis, di folder sesi mana pun
+models/
+outputs/
+checkpoints/
+runs/
 
-# Model checkpoints per session 
-LAB Deep Learning/session-*/models/*
-!LAB Deep Learning/session-*/models/.gitkeep
-LAB Speech Recognition/session-*/models/*
-!LAB Speech Recognition/session-*/models/.gitkeep
+# Bobot model & checkpoint, di mana pun letaknya
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
 
-# Outputs per session
-LAB Deep Learning/session-*/outputs/*
-!LAB Deep Learning/session-*/outputs/.gitkeep
-LAB Speech Recognition/session-*/outputs/*
-!LAB Speech Recognition/session-*/outputs/.gitkeep
+# Dataset: yang kecil sengaja IKUT di-track supaya repo self-contained.
+# Kalau nanti ada dataset audio/gambar besar, ignore per-file di sini, contoh:
+# LAB Speech Recognition/session-05/dataset/common_voice/
 
 .claude/
 .remember/

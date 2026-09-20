@@ -23,7 +23,7 @@ jiwer
 tqdm
 python-dotenv
 
-# Requirements for LAB Deep Learning from Assistant Laboratory
+# Requirements for LAB Deep Learning from Aslab (Asistant Laboratory)
 gymnasium==0.28.1
 ipykernel==6.19.2
 matplotlib==3.7.1

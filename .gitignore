@@ -45,3 +45,5 @@ runs/
 .mcp.json
 CLAUDE.local.md
 *.claude-session
+
+pip_install.log
